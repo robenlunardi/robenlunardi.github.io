@@ -1,0 +1,8 @@
+- name: Example student name
+  photo: rock.jpg
+  info: 
+  email: exampleemail@gmail.com
+  website: https://website.com
+  number_educ: 2
+  education1: Ph.D. with <a href="w">XYZ</a>, UFRGS
+  education2: BSc with <a href="w">XYZ</a>, IFRS
