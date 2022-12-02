@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.lang | default: site.langs[0] | default: "en" }}">
 
   {% include head.html %}
 
@@ -7,11 +7,15 @@
 
     {% include header.html %}
 
-    <div class="container-fluid">
-      <div class="row">
+    {% if page.layout == "post" %}
+    <main class="post-content" aria-label="Content">
+    {% else %}
+    <main class="page-content" aria-label="Content">
+    {% endif %}
+      <div class="wrapper">
         {{ content }}
       </div>
-    </div>
+    </main>
 
     {% include footer.html %}
 
