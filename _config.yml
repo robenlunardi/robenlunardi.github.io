@@ -63,8 +63,8 @@ plugins: ['jekyll/scholar']
 
 scholar:
 
-  last_name: Bryngelson
-  first_name: [Spencer H.]
+  last_name: Lunardi
+  first_name: [Roben C.]
 
   style: shb
   locale: en
