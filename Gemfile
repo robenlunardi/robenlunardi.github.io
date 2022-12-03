@@ -5,7 +5,4 @@ gem "thin"
 gem "rack", ">= 2.2.3"
 gem "sassc", ">2.0.1"
 gem "kramdown-parser-gfm"
-gem 'faraday-retry'
-gem 'jekyll-scholar', group: :jekyll_plugins
-
-gem "webrick", "~> 1.7"
+gem 'jekyll-scholar'
