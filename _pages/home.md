@@ -7,27 +7,28 @@ permalink: /
 
 ### Welcome!
 
-New medical devices and therapies stand to improve human health outcomes the world over.
-Though innovating in this space is challenging, predictive simulations provide a promising path forward.
-I am a **computational scientist** who clears these paths via new data-driven models, algorithms, and extreme-scale software.
-Recent examples include the <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-IJMF-20.pdf" target="_blank">most efficient sub-grid model</a> for simulating cavitation, a <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRE-19.pdf" target="_blank">low-order model</a> for cell-scale blood flow, and <a href="https://mfc-caltech.github.io/" target="_blank">MFC</a>, my open-source multi-phase flow solver.
-These developments guide biomicrofluidic device design and improve treatment outcomes (e.g. burst-wave <a href="https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/lithotripsy" target="_blank">lithotripsy</a>).
+Welcome to my personal homepage! I am currently working as an associate professor at [IFRS](https://ifrs.edu.br) - [Campus Restinga](https://ifrs.edu.br/restinga). My research interests are in Cybersecurity, Computer Networks, IoT, and Educational Robotics.
 
-<div class="container">
-<div class="row">
-<center>
-<iframe src="https://player.vimeo.com/video/455688517?autoplay=1&loop=1&autopause=0&muted=1&quality=360p&background=1" width="100%" style="border-style:solid;border-radius:5px;" frameborder="0" allow="autoplay"></iframe>
-Transition to chaos of flowing red blood cells. <br/>
-Bryngelson & Freund, <i>Phys. Rev. Fluids</i> (2018)
-</center>
-</div>
-</div>
-<br/>
+### Education and Previous Experience
 
-### About me
+Previously, from 2017 to 2021, I obtained my PhD in Computer Science from the Pontifical Catholic University of Rio Grande do Sul (PUCRS). During my PhD, I participated in the research internship program promoted by the Australian Academy of Science (Australia-Americas PhD Research Internship Program) at the University of New South Wales (UNSW), Sydney/Australia 🇦🇺🦘🐨 in 2018, with the supervision of Professor Salil Kanhere. I also participated in a doctoral internship (Sandwich Doctorate) at Newcastle University (Newcastle Upon Tyne / United Kingdom 🇬🇧), from October 2019 to March 2020, under the supervision of Professor Aad van Moorsel.
+From 2008 to 2010, I obtained an MSc in Computing from the Federal University of Rio Grande do Sul (UFRGS), where I participated in a research project focused on Change Management in IT Infrastructure funded by Hewlett-Packard (HP) R & D Brazil. 
+During my BSc (from 2004 to 2007), I performed an internship and participated in scientific projects at the Southern Regional Center for Space Research (CRSPE) of the National Institute for Space Research (INPE). 
 
-I am a Senior Postdoctoral Scholar at the California Institute of Technology, working with <a href="https://www.colonius.caltech.edu/" target="_blank">Professor Tim Colonius</a>.
-I also work with <a href="http://sandlab.mit.edu/" target="_blank">Professor Themis Sapsis</a> at the Massachusetts Institute of Technology on machine-learned model closures.
-Previously, I was a Postdoctoral Researcher at the <a href="https://xpacc.illinois.edu/" target="_blank">Center for Exascale Simulation of Plasma-Coupled Combustion</a> (XPACC).
-I have a Ph.D. and M.S. in <a href="https://mechanical.illinois.edu/graduate/graduate-degree-programs/phd-programs/phd-theoretical-and-applied-mechanics" target="_blank">Theoretical and Applied Mechanics</a> from the University of Illinois at Urbana–Champaign (2017 and 2015), where I worked with <a href="https://aerospace.illinois.edu/directory/profile/jbfreund" target="_blank">Professor Jonathan Freund</a>.
-I hold B.S. degrees in Mechanical Engineering and Mathematics from the University of Michigan–Dearborn (2013).
+I have experience in Computer Science, with an emphasis on Systems Security, Computer Networks and Automation, acting on the following subjects: Blockchains, Information Security, Computer Network Management, Software Defined Networks, Infrastructure Change Management IT, IoT and Educational Robotics. I am member of the Brazilian Computer Society (SBC) and member of the IEEE.
+
+
+### Current Research and Projects
+
+I like to be active and engage in interesting projects both in parternership with Academy and with Industry.  I am coordinating different research projects in cybersecurity, more specifically in Blockchain, distributed applications security evaluation, and  pentesting. In 2022, I participated in a project to evaluate different techniques to introduce computational thinking to students in elementary schools.. In 2022, I participated in a project to evaluate different techniques to introduce computational thinking to students in elementary schools. During 2018–2020, I participated in three different research projects about blockchain with companies: with a financial institution and with two software development companies. These projects helped to understand important aspects that should be considered for the adoption of blockchains in real scenarios.  I was also the coordinator of the undergraduate program in Systems' Analisys and Development at IFRS from 2013-2016. Previoulsy, I coordinated, participated and lead different projects in cybersecurity, computer networks, and IoT.
+
+I am part of the [Cybersecurity and Ciberphysical Systems Research Group (SciFi)](https://scifi-IFRS.github.io) at IFRS and [Systems Reliability and Security Research Group (CONSEG)](https://conseg.github.io/) at PUCRS.
+
+
+
+### Free time
+* 🏊‍♂️ Swimming and hiking.
+* 🗺️ Travelling 🇧🇷🇺🇾🇦🇷🇵🇾🇨🇼🇺🇸🇬🇧🏴󠁧󠁢󠁥󠁮󠁧󠁿🏴󠁧󠁢󠁳󠁣󠁴󠁿🇮🇪🇫🇷🇧🇪🇩🇪🇮🇹🇳🇱🇦🇺🇯🇵.
+* 🎸 Music, HiFi sound systems and HiFi records ([Vinyl Collection at Discogs](https://www.last.fm/user/Hollgam)), and Live Gigs (https://www.setlist.fm/user/robenlunardi). I also play guitar.
+* 📺 Films and tv series.
+* 🥃 Drinking (good quality, not quantity + good company).

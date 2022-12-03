@@ -67,8 +67,10 @@ iframe {
 <div class="jumbotron">
 <div class="row align-items-end">
 <div class="col-md-9 col-sm-12">
- <h4>Cavitation as a gateway to better therapies</h4>
-Cavitating bubbles can ablate cancer cells, fragment tissues, and deliver drugs, among other functions.
+ <h4>ProgIF</h4>
+ To be written...
+ 
+<!-- Cavitating bubbles can ablate cancer cells, fragment tissues, and deliver drugs, among other functions.
 I create high-fidelity computational methods to simulate these dynamics.
 Examples are:
 * Euler--Euler and Euler--Lagrange <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-IJMF-19.pdf" target="_blank">sub-grid bubble cloud models</a>
@@ -83,13 +85,14 @@ This has impacted application-specific treatments, including:
 </div>
 <div class="col-md-3 col-sm-12" style="background-color:transparent;">
   <iframe src="https://player.vimeo.com/video/455888052?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="182px" frameborder="0" allow="autoplay"></iframe>
+-->
 </div>
 </div>
 </div>
 
   <!-- <iframe src="https://player.vimeo.com/video/455887852?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="142px" frameborder="0" allow="autoplay"></iframe> -->
 
-
+<!-- 
 <div class="jumbotron">
 <div class="row align-items-end">
 <div class="col-md-9 col-sm-12">
@@ -127,47 +130,4 @@ Coupling with <a href="{{ site.url }}{{ site.baseurl }}/software/" target="_blan
 </div>
 </div>
 </div>
-
-
-<div class="jumbotron">
-<div class="row align-items-end">
-<div class="col-md-9 col-sm-12">
- <h4>An _in silico_ microfluidics and microcirculation</h4>
-I create simulation methods for the cellular flows that occur _in vivo_ and in biomicrofluidic devices.
-These tools are composed of physical models for the cells and particles and numerical methods to solve for their motion.
-These are implemented in <a href="{{ site.url }}{{ site.baseurl }}/software/" target="_blank">RBC3D</a>, my state-of-the-art flow solver that resolves <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRF-16.pdf" target="_blank">all particle-scale interactions</a>.
-Coupling RBC3D with <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRF-18.pdf" target="_blank">stability and optimization tools</a> I discovered:
-* The <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-RA-16.pdf" target="_blank">buckling mechanism</a>  mediating the flow of sickle cells.
-* The <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRE-19.pdf" target="_blank">chaotic behavior</a> of microcirculatory flows, and so computational methods cannot predict cell location (or motion) at long times.
-* A <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRE-19.pdf" target="_blank">data-driven low-order model</a> for the flow statistics.
-</div>
-<div class="col-md-3 col-sm-12">
-  <iframe src="https://player.vimeo.com/video/455887647?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" frameborder="0" allow="autoplay"></iframe>
-</div>
-</div>
-</div>
-
-  <!-- <iframe src="https://player.vimeo.com/video/455887646?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" frameborder="0" allow="autoplay"></iframe> -->
-<!-- <div class="embed-container embed-container-spleen"> -->
-<!-- </div> -->
-
-<!-- <div class="embed-container embed-container-leuk"> -->
-<!--   <iframe src="https://player.vimeo.com/video/455887647?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" frameborder="0" allow="autoplay"></iframe> -->
-<!-- </div> -->
-
-<div class="jumbotron">
-<div class="row align-items-end">
-<div class="col-md-9 col-sm-12">
- <h4>Targeted microcapsules for drug delivery</h4>
-Capsules can deliver drug payloads via the microcirculation and pulmonary system.
-The capsules dynamics are an important design condition in this application, which are particularly sensitive to the capsule membrane itself.
-I crafted kinematic stability analyses of this coupled dynamical system, including:
-* The first <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-JFM-18.pdf" target="_blank">Floquet analysis</a> of such a system, which classifies the stability without the ambiguity of empirical perturbations or experiments
-* <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-EJM-19.pdf" target="_blank">Non-modal extensions</a> of the stability analysis, enabling the prediction of rheometric flows and characterization of the capsule's mechanical properties
-</div>
-<div class="col-md-3 col-sm-12" >
-  <iframe src="https://player.vimeo.com/video/455887720?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="156px" frameborder="0" allow="autoplay"></iframe>
-</div>
-</div>
-</div>
-
+-->

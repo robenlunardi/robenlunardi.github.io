@@ -17,17 +17,14 @@ affiliation: >
     Associate Professor<br/>
     <a href="http://ifrs.edu.br/restinga" target="_blank">Campus Restinga</a><br/>
     Federal Institute of Education, Science and Technology of Rio Grande do Sul (IFRS)
-
 location: >
   Instituto Federal de Educação, Ciência e Tecnologia - Campus Restinga<br/>
   Alberto Hoffmann, 285<br/>
   91791-508 - Porto Alegre/RS<br/>
   Brazil<br/>
-
 contact: >
     <a href="mailto:roben.lunardi@restinga.ifrs.edu.br" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact me via email</a> <br/>
     <a href="/aboutwebsite.html"><i class="fa fa-github fa-1x"></i> Use this site as a template!</a>
-
 # Pages shown in navbar
 nav_pages:
   - name: about

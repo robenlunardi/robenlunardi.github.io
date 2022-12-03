@@ -39,29 +39,14 @@ iframe {
 <div class="jumbotron">
 <div class="row align-items-end">
 <div class="col-md-9 col-sm-12">
-<h4><b>QBMMlib: Moment Methods for Fully-coupled Flows</b></h4>
-<a href="https://github.com/sbryngelson/QBMMlib" target="_blank"><button class="btn btn-primary btn-sm">GIT: QBMMLIB</button></a>
-<a href="https://github.com/sbryngelson/PyQBMMlib" target="_blank"><button class="btn btn-primary btn-sm">GIT: PyQBMMLIB</button></a>
-<a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-SoftX-20.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
+<h4><b>SpeedyChain</b></h4>
+<a href="https://github.com/conseg/speedychain" target="_blank"><button class="btn btn-primary btn-sm">GIT: SpeedyChain</button></a>
+<a href="{{ site.url }}{{ site.baseurl }}/papers/speedychain.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
 
 <b>Author:</b>
-<i>S. H. Bryngelson</i>
+<i>Zorzo, A.Z, Lunardi, R. C., Michelin, R. A., and Neu, C. V.</i>
 
-<b>QBMMlib</b> is an <a href="https://github.com/sbryngelson/QBMMlib" target="_blank">open source Mathematica package</a> for solving populating balance equations with quadrature-based moment methods (QBMMs).
-QBMMs are used for fully-coupled disperse flow and combustion problems.
-However, formulating and closing the corresponding governing equations can be complex.
-QBMMlib makes using these methods simple and accessible:
-- Symbolic and automatic formulation of moment transport equations for a population balance equation and dynamical system
-- Moment inversion trades moment sets for quadrature points
-    - Algorithms: QMOM, HyQMOM, CQMOM, and more
-- Quadratures closes the moment transport and governing flow equations 
-- Embedded Runge--Kutta algorithms for _realizable_ time integration
-
-The algorithm initialization and solution can span _just 13 lines of code_.
-Example notebooks demonstrate QBMMlib on bubble dynamics problems.
-
-<b><a href="https://github.com/sbryngelson/PyQBMMlib" target="_blank">PyQBMMlib:</a></b> With Esteban Cisneros I developed a Python version of QBMMlib that leverages JIT compiling for significantly improved performance.
-
+<b>SpeedyChain</b> is a lightweight blockchain developed to be used in IoT environments. <a href="https://github.com/conseg/speedychain" target="_blank">SpeedyChain</a>... 
 </div>
 <div class="col-md-3 col-sm-12">
   <iframe src="https://player.vimeo.com/video/456290405?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="132px" frameborder="0" allow="autoplay"></iframe>
@@ -69,6 +54,7 @@ Example notebooks demonstrate QBMMlib on bubble dynamics problems.
 </div>
 </div>
 
+<!--
 <div class="jumbotron">
 <div class="row align-items-end">
 <div class="col-md-9 col-sm-12">
@@ -185,3 +171,4 @@ Parallel communication (MPI) enables large simulations, such as model vascular n
 </div>
 </div>
 </div>
+-->

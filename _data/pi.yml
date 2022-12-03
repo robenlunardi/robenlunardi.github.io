@@ -1,23 +1,21 @@
-- name: Dr. Spencer H. Bryngelson
-  photo: spencer_headshot.jpg
-  info: Senior Postdoctoral Scholar, Caltech 
-  email: spencer@caltech.edu
-  github: https://github.com/sbryngelson
-  researchgate: https://www.researchgate.net/profile/Spencer_Bryngelson
-  scholar: https://scholar.google.com/citations?user=dM-nHdMAAAAJ&hl=en
-  cv: cv/cv.pdf
-  number_educ: 6
-  education1: (2018- ) Senior Postdoc, Caltech (with <a href="https://colonius.caltech.edu" target="_blank">Tim Colonius</a>)
-  education2: (2019) Visiting Researcher, MIT (with <a href="http://sandlab.mit.edu" target="_blank">Themis Sapsis</a>)
-  education3: (2017-8) Postdoctor Researcher <br> <a href="https://xpacc.illinois.edu" target="_blank">XPACC</a> (with <a href="https://sites.usc.edu/hptcl/" target="_blank">Carlos Pantano</a>, <a href="http://acoustics.ae.illinois.edu/" target="_blank">Dan Bodony</a>, <a href="http://jbfreund.mechse.illinois.edu/" target="_blank">Jon Freund</a>)
-  education4: (2017) Ph.D. Theoretical and Applied Mechanics<br> University of Illinois at Urbana-Champaign (with <a href="https://aerospace.illinois.edu/directory/profile/jbfreund" target="_blank">Jon Freund</a>)
-  education5: (2015) M.S. Theoretical and Applied Mechanics<br> University of Illinois at Urbana-Champaign
-    <br>(with certificate in <a href="https://cse.illinois.edu/" target="_blank">Computational Science & Engineering</a>)
-  education6: (2013) B.S. Mechanical Engineering, B.S. Mathematics<br>
-    University of Michigan-Dearborn
-  education1short: (2018- ) Senior Postdoc, Caltech 
-  education2short: (2019) Visiting Researcher, MIT 
-  education3short: (2017-8) Postdoc, XPACC 
-  education4short: (2017) Ph.D. TAM, UIUC 
-  education5short: (2015) M.S. TAM/CSE, UIUC
-  education6short: (2013) B.S.+B.S, Michigan
+- name: Roben C. Lunardi, Ph.D. 
+  photo: roben.jpg
+  info: Associate Professor at IFRS, Brazil
+  email: roben.lunardiATrestinga.ifrs.edu.br
+  github: https://github.com/robenlunardi
+  researchgate: https://www.researchgate.net/profile/Roben-Lunardi
+  scholar: https://scholar.google.com.br/citations?user=PTMGNKIAAAAJ
+  linkedin: https://www.linkedin.com/in/robenlunardi
+  orcid: https://orcid.org/0000-0002-8118-0802
+  cv: http://lattes.cnpq.br/1243090119249735
+  number_educ: 5
+  education1: (2020–) Associate professor at <a href="https://ifrs.edu.br/restinga/" target="_blank">IFRS - Campus Restinga</a>
+  education2: (2017–21) <b>PhD in Computer Science - Cibersecurity</b> at <a href="https://www.pucrs.br/" target="_blank">PUCRS</a>
+  education3: (2011–20) Assistant Professor at <a href="https://ifrs.edu.br/restinga/" target="_blank">IFRS</a>
+  education4: (2008–10) <b>MSc in Computer Science - Computer Networks</b> at <a href="https://www.ufrgs.br" target="_blank">UFRGS</a>
+  education5: (2004–08) <b>BSc in Computer Science</b> at <a href="https://www.ufsm.br" target="_blank">UFSM</a>
+  education1short: (2020–) Assistant professor, IFRS - Brazil
+  education2short: (2017–21) PhD, PUCRS - Brazil 
+  education3short: (2011-20) Assistant Professor, IFRS - Brazil
+  education4short: (2008–10) Msc, UFRGS - Brazil
+  education5short: (2004–08) Bsc, UFSM - Brazil
