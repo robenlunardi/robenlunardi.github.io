@@ -1,9 +1,8 @@
-source "https://rubygems.org"
-gemspec
-gem 'jekyll-feed'
-gem 'redcarpet'
+source 'https://rubygems.org'
 
-group :jekyll_plugins do
-  gem 'jekyll-livereload'
-  gem 'jekyll-last-modified-at'
-end
+gem "jekyll", "4.1.1"
+gem "thin"
+gem "rack", ">= 2.2.3"
+gem "sassc", ">2.0.1"
+gem "kramdown-parser-gfm"
+gem 'jekyll-scholar'
