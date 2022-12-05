@@ -1,10 +1,3 @@
-=begin
-  Jekyll tag to include Markdown text from _includes directory preprocessing with Liquid.
-  Usage:
-    {% markdown <filename> %}
-  Dependency:
-    - kramdown
-=end
 module Jekyll
   class MarkdownTag < Liquid::Tag
     def initialize(tag_name, text, tokens)

@@ -1,31 +1,35 @@
 <br/>
-<section id="footer">
-<div class="container-footer">
+<div id="footer" class="panel">
   <div class="panel-footer">
+	<div class="container-fluid">
 	  <div class="row">
 		<div class="col-sm-4">
-		    <h5>About</h5>	
-            <p>{{ site.affiliation }}</p>
+			
+            <p>&copy {{ 'now' | date: "%Y" }} {{site.title | escape }} </p>
+
+              <p>{{ site.affiliation }}</p>
+
+		   <p>  </p><p>
+            		  
 		</div>
 
 		<div class="col-sm-4">
-		    <h5>Contact</h5>	
             <p>{{ site.contact }}</p>
 		</div>
 
+
 		<div class="col-sm-4">
-		    <h5>Coordinates</h5>	
             <p>{{ site.location }}</p>
 		</div>
-	  </div>
 
-      <center><p>&copy {{ "now" | date: "%Y" }} {{site.title | escape }} </p></center>
+	  </div>
 	</div>
   </div>
 </div>
 
-<script src="{{ "/assets/javascript/bootstrap/jquery.min.js" | relative_url }}"></script>
-<!-- <script src="{{ "/assets/javascript/popper/dist/umd/popper.min.js" | relative_url }}"></script> -->
-<script src="{{ "/assets/javascript/bootstrap/bootstrap.bundle.min.js" | relative_url }}"></script>
-<!-- <script src="{{ "/assets/javascript/shb.js" | relative_url }}"></script> -->
-
+<script type="text/javascript">
+  // Open links from outside of the website in a new tab
+  $(document.links).filter(function() {
+    return this.hostname != window.location.hostname;
+  }).attr('target', '_blank');
+</script>

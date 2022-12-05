@@ -1,0 +1,17 @@
+- title: "Thesis title"
+  authors: Lunardi, R. C.
+  url: roben2021thesis
+  image: robenthesis.jpg
+  display: "Thesis for: PhD in Computer Science"
+  year: 2012
+  code: https://github.com/conseg/speedychain
+  abstract: " To be written"
+
+- title: "conf title"
+  authors: Lunardi, R. C.,
+  url: conftitlelink
+  image: paperimage.jpg
+  display: Proceedings of 
+  year: 2008
+  doi: number/code
+  abstract: "conf paperabstract"
