@@ -1,41 +1,41 @@
-- name: SBSeg 2022 - Finalist of the Best Thesis Award
+- name: SBSeg 2022 _ Finalist of the Best Thesis Award
   name_url: https://sbseg2022.inf.ufsm.br/apresentacoes-CTDSeg.html
   organisation: Brazilian Computing Society (SBC)
   organisation_url: https://www.sbc.org.br/
   year: 2022
 
-- name: SIGCOMM 2021 - Silver prize for the undergraduate Best poster award (co-advisor)
-  name_url: https://conferences.sigcomm.org/sigcomm/2021/cf-posters.html
-  organisation: SIGCOMM
-  organisation_url: https://conferences.sigcomm.org/sigcomm
-  year: 2021
+# - name: SIGCOMM 2021 - Silver prize for the undergraduate Best poster award (co-advisor)
+#   name_url: https://conferences.sigcomm.org/sigcomm/2021/cf-posters.html
+#   organisation: SIGCOMM
+#   organisation_url: https://conferences.sigcomm.org/sigcomm
+#   year: 2021
 
-- name: ERRC 2021 - Best Paper Award
-  name_url: https://www.sbc.org.br/33-premios/2316-melhores-artigos-eventos-2021
-  organisation: Brazilian Computing Society (SBC)
-  organisation_url: https://www.sbc.org.br/
-  year: 2021
+# - name: ERRC 2021 - Best Paper Award
+#   name_url: https://www.sbc.org.br/33-premios/2316-melhores-artigos-eventos-2021
+#   organisation: Brazilian Computing Society (SBC)
+#   organisation_url: https://www.sbc.org.br/
+#   year: 2021
 
- - name: MOBIQUITOUS 2019 - Best Paper Award
-  name_url: https://mobiquitous.eai-conferences.org/2019/
-  organisation: European Alliance for Inovation (EAI)
-  organisation_url: https://eai.eu/
-  year: 2019
+#  - name: MOBIQUITOUS 2019 - Best Paper Award
+#   name_url: https://mobiquitous.eai-conferences.org/2019/
+#   organisation: European Alliance for Inovation (EAI)
+#   organisation_url: https://eai.eu/
+#   year: 2019
 
-- name: ERRC 2019 - Best Paper Award
-  name_url: https://errc.sbc.org.br/2019/programacao.php?#melhorestrabalhos
-  organisation: Brazilian Computing Society (SBC)
-  organisation_url: https://www.sbc.org.br/
-  year: 2019
+# - name: ERRC 2019 - Best Paper Award
+#   name_url: https://errc.sbc.org.br/2019/programacao.php?#melhorestrabalhos
+#   organisation: Brazilian Computing Society (SBC)
+#   organisation_url: https://www.sbc.org.br/
+#   year: 2019
 
-  - name: 2018 Australia-Americas Research Internship - Mobility Grant Award
-  name_url: https://www.pucrs.br/en/blog/graduate-students-awarded-mobility-grant-to-australia/
-  organisation: Australian Academy of Science
-  organisation_url: https://www.science.org.au/
-  year: 2018
+#   - name: 2018 Australia-Americas Research Internship - Mobility Grant Award
+#   name_url: https://www.pucrs.br/en/blog/graduate-students-awarded-mobility-grant-to-australia/
+#   organisation: Australian Academy of Science
+#   organisation_url: https://www.science.org.au/
+#   year: 2018
 
-  - name: NOMS/DISSECT 2018 - Best Paper Award
-  name_url: https://www.inf.ufrgs.br/dissect/2018/program.html
-  organisation: IFIP/IEEE
-  organisation_url: https://www.ieee.org
-  year: 2018
+#   - name: NOMS/DISSECT 2018 - Best Paper Award
+#   name_url: https://www.inf.ufrgs.br/dissect/2018/program.html
+#   organisation: IFIP/IEEE
+#   organisation_url: https://www.ieee.org
+#   year: 2018
