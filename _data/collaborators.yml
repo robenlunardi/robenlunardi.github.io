@@ -1,29 +1,20 @@
 - name: Prof. Avelino Francisco Zorzo
-  name_url: https://www.inf.pucrs.br/zorzo/
-  field: Ciber Security
-  institution: PUCRS - Brazil
-  institution_url: https://www.pucrs.br/
+  title: PUCRS, Brazil
+  url: "https://www.inf.pucrs.br/zorzo/"
 
 - name: PhD Charles Neu
-  name_url: ''
+  title: Newcastle University, UK
+  url: "https://www.linkedin.com/in/charlesneu/"
   field: Ciber Security
-  institution: Newcastle University - UK
-  institution_url: https://www.ncl.ac.uk
 
-- name: PhD Daniel Dalalana
-  name_url: ''
-  field: Ciber Security
-  institution: WSS Security - Brazil
-  institution_url: 
+- name: PhD Daniel Dalalana Bertoglio
+  title: WSS Security, Brazil
+  url: "https://www.linkedin.com/in/danieldalalana/"
 
 - name: PhD Diego Kreutz
-  name_url: ''
-  field: Ciber Security
-  institution: UNIPAMPA - Brazil
-  institution_url: https://unipampa.edu.br
+  title: UNIPAMPA, Brazil
+  url: "https://www.linkedin.com/in/diegokreutz/"
 
 - name: PhD Weverton Cordeiro
-  name_url: ''
-  field: Computer Networks
-  institution: UFRGS - Brazil
-  institution_url: https://www.ufrgs.br
+  title: UFRGS, Brazil
+  url: "https://www.inf.ufrgs.br/~wlccordeiro/"

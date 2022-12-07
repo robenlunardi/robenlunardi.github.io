@@ -1,6 +1,0 @@
-@thesis{Lunardi:2021thesis,
-  title={Multi-level consensus algorithm for appendable-block blockchains in IoT Environments},
-  author={Lunardi, Roben C.},
-  year={2021},
-  school={PUCRS}
-}

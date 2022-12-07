@@ -5,9 +5,12 @@ sitemap: false
 permalink: /allnews.html
 ---
 
-# News
+## News
 
+<div class="jumbotron">
 {% for article in site.data.news %}
-<p><strong>{{ article.date }}</strong><br>
-{{ article.headline }}</p>
+<b>{{ article.date }}</b>
+
+{{ article.headline }}
 {% endfor %}
+</div>
