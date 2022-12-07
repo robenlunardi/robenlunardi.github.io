@@ -63,21 +63,17 @@ plugins: ['jekyll/scholar']
 
 scholar:
   last_name: Lunardi
-  style: shb
+  style: apa
   locale: en
   source: /cv/
   bibliography: ref.bib
-  bibliography_template: bibtemplate
-  sort_by: year, month
-  order: descending
+  bibliography_template: bib
   replace_strings: true
   join_strings: true
   details_dir: bibliography
   details_layout: bibtemplate.html
-  details_link: Details
+  details_link:
   query: "@*"
-  bibliography_list_attributes:
-    reversed: "reversed"
 
 exclude:
   - Gemfile
