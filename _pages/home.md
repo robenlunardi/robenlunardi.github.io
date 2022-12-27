@@ -27,8 +27,8 @@ I am part of the [Cybersecurity and Ciberphysical Systems Research Group (SciFi)
 
 
 ### Free time
-* 🏊‍♂️ Swimming and hiking.
 * 🗺️ Travelling 🇧🇷🇺🇾🇦🇷🇵🇾🇨🇼🇺🇸🇬🇧🏴󠁧󠁢󠁥󠁮󠁧󠁿🏴󠁧󠁢󠁳󠁣󠁴󠁿🇮🇪🇫🇷🇧🇪🇩🇪🇮🇹🇳🇱🇦🇺🇯🇵.
 * 🎸 Music, HiFi sound systems and HiFi records ([Vinyl Collection at Discogs](https://www.last.fm/user/Hollgam)), and Live Gigs (https://www.setlist.fm/user/robenlunardi). I also play guitar.
 * 📺 Films and tv series.
 * 🥃 Drinking (good quality, not quantity + good company).
+* 🏊‍♂️ Swimming and hiking.
