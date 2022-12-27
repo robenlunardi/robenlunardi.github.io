@@ -12,6 +12,7 @@ with open(str_input, 'r') as fr:
  
 # list the output line
 list_output = []
+list_output_demaiscampos = []
  
 # go through the lines
 for str_line in list_lines:
@@ -24,12 +25,15 @@ for str_line in list_lines:
         print ("passei aqui ")
         str_id = re.sub(':','',sg_t1.group(2))
         str_first = '\n-%s: &%s' % (sg_t1.group(1), str_id)
-        list_output.append(str_first)
+        # list_output.append(str_first)
+        # list_output.append(list_output_demaiscampos)
+        # list_output.append("- ")
+        # list_output_demaiscampos = []
         print(str_first)
  
     # for the other lines
     # elif str_line.startswith('\t'):
-    else:
+    elif str_line.startswith("  "):
         print ("dentro do elsif")
         # sg_tn = re.search('^\t(.*) = {(.*?)}', str_line)
         sg_tn = re.search('^  (.*) = {(.*?)}', str_line)
@@ -37,6 +41,10 @@ for str_line in list_lines:
         print(str_line)
         str_cat = sg_tn.group(1).lower()
         str_val = sg_tn.group(2)
+
+        # if str_cat=="title":
+        #     str_gen_out = '  %s: "%s"' % (str_cat, str_val)
+        #     list_output.append(str_gen_out)
  
         # make a list of all the authors
         if str_cat=='author':
@@ -44,7 +52,7 @@ for str_line in list_lines:
             # str_auths = '\n    -'.join(list_authors)
             str_auths = ', '.join(list_authors)
             # str_aut_out = '  %s:\n    -%s' % (str_cat, str_auths)
-            str_aut_out = '  %s: %s' % (str_cat, str_auths)
+            str_aut_out = '-  %s: %s' % (str_cat, str_auths)
             print(str_auths)
             print("antes do append")
             list_output.append(str_aut_out)
