@@ -12,7 +12,7 @@ with open(str_input, 'r') as fr:
  
 # list the output line
 list_output = []
-list_output_demaiscampos = []
+stringDemaisCampos =''
  
 # go through the lines
 for str_line in list_lines:
@@ -27,7 +27,9 @@ for str_line in list_lines:
         str_first = '\n-%s: &%s' % (sg_t1.group(1), str_id)
         # list_output.append(str_first)
         # list_output.append(list_output_demaiscampos)
-        # list_output.append("- ")
+        if(stringDemaisCampos != ''):
+            list_output.append(stringDemaisCampos+'\n')
+            stringDemaisCampos = ''
         # list_output_demaiscampos = []
         print(str_first)
  
@@ -47,27 +49,34 @@ for str_line in list_lines:
         #     list_output.append(str_gen_out)
  
         # make a list of all the authors
-        if str_cat=='author':
+        if str_cat== 'title':
+            str_gen_out = '- %s: "%s"' % (str_cat, str_val)
+            list_output.append(str_gen_out)
+
+        elif str_cat=='author':
             list_authors = str_val.split(' and ')
             # str_auths = '\n    -'.join(list_authors)
             str_auths = ', '.join(list_authors)
             # str_aut_out = '  %s:\n    -%s' % (str_cat, str_auths)
-            str_aut_out = '-  %s: %s' % (str_cat, str_auths)
+            str_aut_out = '  %s: %s' % (str_cat, str_auths)
             print(str_auths)
             print("antes do append")
-            list_output.append(str_aut_out)
+            # list_output.append(str_aut_out)
+            stringDemaisCampos=stringDemaisCampos+'\n'+str_aut_out 
 
         else:
             # all the integer values
             list_ints = ['number','volume','read','year']
             if str_cat in list_ints:
                 str_jt_out = '  %s: %s' % (str_cat, str_val)
-                list_output.append(str_jt_out)
+                # list_output.append(str_jt_out)
+                stringDemaisCampos=stringDemaisCampos+'\n'+str_jt_out 
                  
             # all the string values
             else:
                 str_gen_out = '  %s: "%s"' % (str_cat, str_val)
-                list_output.append(str_gen_out)
- 
+                # list_output.append(str_gen_out)
+                stringDemaisCampos=stringDemaisCampos+'\n'+str_gen_out 
+list_output.append(stringDemaisCampos) 
 with open(str_output,'w') as fw:
     fw.write('\n'.join(list_output))
