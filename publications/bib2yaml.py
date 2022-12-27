@@ -62,7 +62,10 @@ for str_line in list_lines:
             print(str_auths)
             print("antes do append")
             # list_output.append(str_aut_out)
-            stringDemaisCampos=stringDemaisCampos+'\n'+str_aut_out 
+            if(stringDemaisCampos==''):
+                stringDemaisCampos=str_aut_out
+            else:
+                stringDemaisCampos=stringDemaisCampos+'\n'+str_aut_out 
 
         else:
             # all the integer values
@@ -70,13 +73,19 @@ for str_line in list_lines:
             if str_cat in list_ints:
                 str_jt_out = '  %s: %s' % (str_cat, str_val)
                 # list_output.append(str_jt_out)
-                stringDemaisCampos=stringDemaisCampos+'\n'+str_jt_out 
+                if(stringDemaisCampos==''):
+                    stringDemaisCampos=str_jt_out
+                else:
+                    stringDemaisCampos=stringDemaisCampos+'\n'+str_jt_out 
                  
             # all the string values
             else:
                 str_gen_out = '  %s: "%s"' % (str_cat, str_val)
                 # list_output.append(str_gen_out)
-                stringDemaisCampos=stringDemaisCampos+'\n'+str_gen_out 
+                if(stringDemaisCampos==''):
+                    stringDemaisCampos=str_gen_out
+                else:
+                    stringDemaisCampos=stringDemaisCampos+'\n'+str_gen_out 
 list_output.append(stringDemaisCampos) 
 with open(str_output,'w') as fw:
     fw.write('\n'.join(list_output))
