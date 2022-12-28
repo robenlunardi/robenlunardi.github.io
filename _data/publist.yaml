@@ -1,6 +1,22 @@
+- title: "Multi-level consensus algorithm for appendable-block blockchains in IoT Environments"
+  authors: Lunardi, Roben C.
+  display: "Full Phd thesis is available at https://repositorio.pucrs.br/dspace/handle/10923/17355, 160."
+  year: 2021
+
+- title: "CHANGEADVISOR : uma solução para alinhamentos de planos de mudanças em infraestruturas de TI a objetivos/restrições de negócios"
+  authors: Lunardi, Roben C.
+  display: "Full master thesis is available at https://lume.ufrgs.br/handle/10183/29008, 95."
+  year: 2010
+
+- title: "Blockchain Technologies for IoT"
+  authors: Dedeoglu, V., Jurdak, R., Dorri, A., Lunardi, R. C., Michelin, R. A., Zorzo, A. F., Kanhere, S. S.
+  display: "Advanced Applications of Blockchain Technology, 55--89. Springer Singapore."
+  year: 2020
+  doi: "10.1007/978-981-13-8775-3_3"
+
 - title: "Impact of Consensus on Appendable-Block Blockchain for IoT"
   authors: Lunardi, Roben C., Michelin, Regio A., Neu, Charles V., Nunes, Henry C., Zorzo, Avelino F., Kanhere, Salil S.
-  display: "2EAI International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services, 228–237. Association for Computing Machinery."
+  display: "EAI International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services, 228–237. Association for Computing Machinery."
   year: 2019
   doi: "10.1145/3360774.3360798"
 
@@ -9,3 +25,114 @@
   display: "Latin-American Symposium on Dependable Computing, 1-9. Association for Computing Machinery."
   year: 2018
   doi: "10.1109/LADC.2018.00010"
+
+- title: "Lightweight IPS for port scan in OpenFlow SDN networks"
+  authors: C. V. Neu, C. G. Tatsch, R. C. Lunardi, R. A. Michelin, A. M. S. Orozco, A. F. Zorzo
+  display: "IEEE/IFIP Network Operations and Management Symposium Workshops, 1-6. Association for Computing Machinery."
+  year: 2018
+  doi: "10.1109/NOMS.2018.8406313"
+
+- title: "Sistema de Reputação Baseado em Blockchain para Detecção de Fake News"
+  authors: Bruno H. Lippert, Bruno F. Scheltzke, Roben C. Lunardi, Regio A. Michelin, Avelino F. Zorzo
+  display: "Workshop Regional de Segurança da Informação e de Sistemas Computacionais, 1-6. Association for Computing Machinery."
+  year: 2018
+
+- title: "Distributed access control on IoT ledger-based architecture"
+  authors: R. C. Lunardi, R. A. Michelin, C. V. Neu, A. F. Zorzo
+  display: "IEEE/IFIP Network Operations and Management Symposium, 1-7. Association for Computing Machinery."
+  year: 2018
+  doi: "10.1109/NOMS.2018.8406154"
+  abstract: "Due to increased number of attacks on the Internet of Things (IoT) devices, the security of IoT networks became critical. Some recent researches proposed the adoption of blockchain in IoT networks without a thorough discussion on the impact of the solution on the devices performance. Furthermore, blockchain employment in the context of IoT can be challenging due to the devices hardware limitations. To fill this gap, this paper proposes an IoT ledger-based architecture to ensure access control on heterogeneous scenarios. This research applies conventional devices used on IoT networks, such as Arduino, Raspberry and Orange Pi boards. Finally, we perform performance evaluation focused on access control of IoT devices and on information propagation through peers on a private IoT network scenario."
+
+- title: "Context-based Smart Contracts For Appendable-block Blockchains"
+  authors: H. C. Nunes, R. C. Lunardi, A. F. Zorzo, R. A. Michelin, S. S. Kanhere
+  display: "IEEE International Conference on Blockchain and Cryptocurrency, 1-9. Association for Computing Machinery."
+  year: 2020
+  doi: "10.1109/ICBC48266.2020.9169466"
+
+- title: "Context-based consensus for appendable-block blockchains"
+  authors: R. C. Lunardi, M. Alharby, H. C. Nunes, C. Dong, A. F. Zorzo, A. van Moorsel
+  display: "IEEE International Conference on Blockchain, 401-408. Association for Computing Machinery."
+  year: 2020
+  doi: "10.1109/Blockchain50366.2020.00058"
+
+- title: "Appendable-block Blockchain Evaluation over Geographically-Distributed IoT Networks"
+  authors: E. H. P. de Arruda, R. C. Lunardi, H. C. Nunes, A. F. Zorzo, R. A. Michelin
+  display: "IEEE International Black Sea Conference on Communications and Networking, 1-6. Association for Computing Machinery."
+  year: 2020
+  doi: "10.1109/BlackSeaCom48709.2020.9235000"
+
+- title: "Data-Driven Model-Based Analysis of the Ethereum Verifier's Dilemma"
+  authors: M. Alharby, R. Castagna Lunardi, A. Aldweesh, A. van Moorsel
+  display: "IEEE/IFIP International Conference on Dependable Systems and Networks, 209-220. Association for Computing Machinery."
+  year: 2020
+  doi: "10.1109/DSN48063.2020.00038"
+
+- title: "Estruturando diferentes aplicações com Blockchain."
+  authors: Lunardi, R. C., Zorzo, A. F.
+  url: "http://horizontes.sbc.org.br/index.php/2020/12/estruturando-diferentes-aplicacoes-com-blockchain/>"
+  display: "SBC Horizontes, ISSN 2175-9235. Association for Computing Machinery."
+  year: 2020
+
+- title: "Performance and Cost Evaluation of Smart Contracts in Collaborative Health Care Environments"
+  authors: Lunardi, Roben C., Nunes, Henry C., Branco, Vinícius, Lippert, Bruno, Neu, Charles V., Zorzo, Avelino F.
+  display: "International Conference for Internet Technology and Secured Transactions, 1-6. Association for Computing Machinery."
+  year: 2019
+
+- title: "{Pentest on an Internet Mobile App:  A Case Studyusing Tramonto"
+  authors: Bertoglio, Daniel D., Girotto, G., Neu, Charles N., Lunardi, Roben C.
+  display: "International Conference for Internet Technology and Secured Transactions, 1-6. Association for Computing Machinery."
+  year: 2019
+
+- title: "Avaliação do uso de Smart Contracts para Sistema de Saúde Colaborativa"
+  authors: Vinícius Branco, Bruno Lippert, Henry Nunes, Roben Lunardi, Avelino Zorzo
+  display: "Escola Regional de Redes de Computadores, 9--16. SBC."
+  year: 2019
+  doi: "10.5753/errc.2019.9206"
+
+- title: "Extração e gerenciamento de incidentes em SIEM"
+  authors: Charles Neu, Evandro Trebien, Daniel Bertoglio, Roben Lunardi, Avelino Zorzo
+  display: "Escola Regional de Redes de Computadores, 190--195. SBC."
+  year: 2019
+  doi: "10.5753/errc.2019.9236"
+
+- title: "Gerenciamento de incidentes em SIEM seguindo ITIL"
+  authors: Charles Neu, Evandro Trebien, Daniel Bertoglio, Roben Lunardi, Avelino Zorzo
+  display: "Revista Eletrônica Argentina-Brasil de Tecnologias da Informação e da Comunicação, 3, 1--10. SBC."
+  year: 2020
+  doi: "10.5281/10.5281/zenodo.3832800"
+  abstract: "Atualmente, o número e a diversidade de dispositivos conectados à internet continua aumentando. Consequentemente, o gerenciamento de segurança se tornou um grande desafio. Desta forma, o Gerenciamento de Eventos e Informações de Segurança (SIEM) pode ajudar a coletar e analisar eventosgerados por diferentes ferramentas de gerenciamento. No entanto, muitas vezes, estas ferramentas, dependem de uma força-tarefa humana especializada para analisar cada evento e fornecer uma decisão de acordo com o incidente. Além disso, o gerenciamento de alertas gerado geralmente não é eficiente nas soluções atuais. A fim de ajudar a lidar com essas questões, este artigo apresenta uma abordagem para gerenciar incidentes através de tickets relacionados a eventos críticos de segurança, seguindo o processo de Gerenciamento de Incidentes da Information Technology Infrastructure Library (ITIL)."
+
+- title: "Modelo de negócio para saúde colaborativa usando smart contracts: caso TokenHealth"
+  authors: Branco, Vinicius, Lippert, Bruno, Lunardi, Roben, Nunes, Henry, Neu, Charles, Zorzo, Avelino, Pirolla, Diego, Spacov, Sérgio
+  display: "Revista Brasileira de Computação Aplicada, 134-144. SBC."
+  year: 2020
+
+- title: "A Journey in Applying Blockchain for Cyberphysical Systems"
+  authors: V. Dedeoglu, A. Dorri, R. Jurdak, R. A. Michelin, R. C. Lunardi, S. S. Kanhere, A. F. Zorzo
+  display: "International Conference on COMmunication Systems NETworkS, 383-390. SBC."
+  year: 2020
+  doi: "10.1109/COMSNETS48256.2020.9027487"
+
+- title: "Consensus Algorithms on Appendable-Block Blockchains: Impact and Security Analysis"
+  authors: Lunardi, Roben C., Michelin, Regio A., Nunes, Henry C., Neu, Charles V., Zorzo, Avelino F., Kanhere, Salil S.
+  url: "https://doi.org/10.1007/s11036-022-02015-4"
+  display: "Mobile Networks and Applications, 27, 1408–1420. Springer-Verlag."
+  year: 2022
+  doi: "10.1007/s11036-022-02015-4"
+  abstract: "The Internet of Things (IoT) has been making people’s lives more efficient and more comfortable in the past years, and it is expected to get even better. This improvement may benefit from the use of blockchain to enhance security, scalability, reliability and auditability. Recently, different blockchain architectures were proposed to provide a solution that is better suited for IoT scenarios. One of them, called appendable-block blockchains, proposed a data structure that allows to include transactions in blocks that were already inserted in the blockchain. This approach allows appendable-block blockchains to manage large amounts of data produced by IoT devices through decoupled and appendable data structures. Nevertheless, consensus algorithms can impact throughput and latency in scenarios with large amount of produced transactions, since IoT devices can produce data very quickly (milliseconds) while these data might take some time to be included in a block (seconds). Consequently, it is important to understand the behaviour of different consensus algorithms over appendabble-block blockchain in these type of scenarios. Therefore, we adapted the appendable-block blockchain to use and compare the impact of different consensus algorithms: Practical Byzantine Fault Tolerance (PBFT), witness-based, delegated Byzantine Fault Tolerance (dBFT) and Proof-of-Work (PoW). The results show that both dBFT and PBFT can achieve fast consensus (< 150ms) in the context of appendable-block blockchains. We also present a discussion regarding attacks in each consensus algorithm to help one to choose the best solution (considering performance and security issues) for each scenario."
+
+- title: "Appendable-Block Blockchains"
+  authors: Michelin, Regio A, Castagna Lunardi, Roben, Nunes, Henry Cabral, Dedeoglu, Volkan, Neu, Charles V, Zorzo, Avelino Francisco, Kanhere, Salil S
+  display: "Advances in Information Security, Privacy, and Ethics, 66--88. IGI Global."
+  year: 2021
+
+- title: "SpeedyChain - A framework for decoupling data from blockchain."
+  authors: Zorzo, A. F., Neu, C. V., Michelin, R. A., Lunardi, R. C.
+  display: "Patente: Programa de Computador. Número do registro: BR512018001343-0, data de registro: 01/08/2018. Instituição de registro: INPI - Instituto Nacional da Propriedade Industrial.. IGI Global."
+  year: 2018
+
+- title: "When Blockchain meets Smart Cities: Opportunities, Security and Future Research"
+  authors: Lunardi, R. C., Michelin, R. A., Alharby, M., Dedeoglu, V., Nunes, H. C., de Arruda, E., , Zorzo, A. F., Moorsel, A.
+  display: "Blockchains - A Handbook on Fundamentals, Platforms and Applications, 43 p.. Springer. To be published soon.."
+  year: 2022
