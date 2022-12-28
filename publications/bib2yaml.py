@@ -69,7 +69,7 @@ for str_line in list_lines:
                 stringComplete = stringComplete+'\n'+stringUrl
                 stringUrl = ''
             if stringDisplay != '': 
-                stringDisplay = '  display: "'+stringDisplay+'".'
+                stringDisplay = '  display: "'+stringDisplay+'."'
                 stringComplete = stringComplete+'\n'+stringDisplay
                 stringDisplay = ''
             if stringYear != '': 
