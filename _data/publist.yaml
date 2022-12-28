@@ -1,11 +1,11 @@
 - title: "Impact of Consensus on Appendable-Block Blockchain for IoT"
-  author: Lunardi, Roben C., Michelin, Regio A., Neu, Charles V., Nunes, Henry C., Zorzo, Avelino F., Kanhere, Salil S.
-  display: 2EAI International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services, 228–237. Association for Computing Machinery.
+  authors: Lunardi, Roben C., Michelin, Regio A., Neu, Charles V., Nunes, Henry C., Zorzo, Avelino F., Kanhere, Salil S.
+  display: "2EAI International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services, 228–237. Association for Computing Machinery".
   year: 2019
-  doi: 10.1145/3360774.3360798
+  doi: "10.1145/3360774.3360798"
 
 - title: "Dependable IoT Using Blockchain-Based Technology"
-  author: A. F. Zorzo, H. C. Nunes, R. C. Lunardi, R. A. Michelin, S. S. Kanhere
+  authors: A. F. Zorzo, H. C. Nunes, R. C. Lunardi, R. A. Michelin, S. S. Kanhere
   display: "Latin-American Symposium on Dependable Computing, 1-9. Association for Computing Machinery."
   year: 2018
   doi: "10.1109/LADC.2018.00010"

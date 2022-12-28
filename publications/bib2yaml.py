@@ -113,7 +113,7 @@ for str_line in list_lines:
             # str_auths = '\n    -'.join(list_authors)
             str_auths = ', '.join(list_authors)
             # str_aut_out = '  %s:\n    -%s' % (str_cat, str_auths)
-            str_aut_out = '  %s: %s' % (str_cat, str_auths)
+            str_aut_out = '  %ss: %s' % (str_cat, str_auths)
             print(str_auths)
             print("antes do append")
             # list_output.append(str_aut_out)
