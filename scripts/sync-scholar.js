@@ -52,8 +52,17 @@ async function fetchPublications() {
     console.log(`Successfully saved to ${dataPath}`);
 
   } catch (error) {
-    console.error('Error fetching publications:', error.message);
-    process.exit(1);
+    console.warn('Warning: Could not fetch publications from Google Scholar (likely blocked).');
+    console.warn('Reason:', error.message);
+    
+    // Check if the data file already exists
+    const dataPath = path.join(process.cwd(), 'src/data/publications.json');
+    if (fs.existsSync(dataPath)) {
+      console.log('Using existing publications.json data.');
+    } else {
+      console.error('Error: No existing publications.json found and fetch failed.');
+      process.exit(1);
+    }
   }
 }
 
