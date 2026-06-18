@@ -1,0 +1,35 @@
+---
+const navItems = [
+	{ name: 'Home', href: '/' },
+	{ name: 'Biography', href: '/biography' },
+	{ name: 'Publications', href: '/publications' },
+	{ name: 'Teaching', href: '/teaching' },
+	{ name: 'Projects', href: '/projects' },
+	{ name: 'Contact', href: '/contact' },
+];
+
+const pathname = new URL(Astro.request.url).pathname;
+---
+
+<header class="py-8 border-b border-slate-100">
+	<nav class="flex justify-between items-center">
+		<a href="/" class="text-xl font-bold tracking-tight hover:text-blue-600 transition-colors">
+			Roben Lunardi
+		</a>
+		<ul class="flex space-x-8">
+			{navItems.map((item) => (
+				<li>
+					<a
+						href={item.href}
+						class:list={[
+							'text-sm font-medium transition-colors hover:text-blue-600',
+							pathname === item.href ? 'text-blue-600' : 'text-slate-500',
+						]}
+					>
+						{item.name}
+					</a>
+				</li>
+			))}
+		</ul>
+	</nav>
+</header>

@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Computer Networks",
+    "institution": "IFRS",
+    "description": "Foundations of data communication, protocols, and network architectures."
+  },
+  {
+    "title": "Cyber Security",
+    "institution": "IFRS",
+    "description": "Principles of information security, cryptography, and network defense."
+  },
+  {
+    "title": "Blockchain Technologies",
+    "institution": "IFRS",
+    "description": "Introduction to distributed ledgers, smart contracts, and consensus mechanisms."
+  }
+]

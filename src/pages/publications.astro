@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PublicationCard from '../components/PublicationCard.astro';
+import publications from '../data/publications.json';
+
+// Group publications by year
+const publicationsByYear = publications.reduce((acc, pub) => {
+	const year = pub.year || 'Unknown';
+	if (!acc[year]) acc[year] = [];
+	acc[year].push(pub);
+	return acc;
+}, {});
+
+const years = Object.keys(publicationsByYear).sort((a, b) => b - a);
+---
+
+<BaseLayout title="Publications">
+	<h1 class="text-5xl font-bold mb-12 tracking-tight">Publications</h1>
+
+	<div class="space-y-16">
+		{years.map((year) => (
+			<section>
+				<h2 class="text-2xl font-bold mb-6 text-slate-400 border-b border-slate-100 pb-2">{year}</h2>
+				<div class="divide-y divide-slate-50">
+					{publicationsByYear[year].map((pub) => (
+						<PublicationCard {...pub} />
+					))}
+				</div>
+			</section>
+		))}
+	</div>
+</BaseLayout>

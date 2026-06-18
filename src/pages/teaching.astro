@@ -1,0 +1,18 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import teaching from '../data/teaching.json';
+---
+
+<BaseLayout title="Teaching">
+	<h1 class="text-5xl font-bold mb-12 tracking-tight">Teaching</h1>
+
+	<div class="grid gap-8">
+		{teaching.map((course) => (
+			<div class="p-8 bg-slate-50 rounded-2xl border border-slate-100">
+				<h2 class="text-2xl font-bold mb-2">{course.title}</h2>
+				<p class="text-blue-600 font-medium text-sm mb-4">{course.institution}</p>
+				<p class="text-slate-600 leading-relaxed">{course.description}</p>
+			</div>
+		))}
+	</div>
+</BaseLayout>

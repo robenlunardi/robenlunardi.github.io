@@ -1,0 +1,24 @@
+{
+  "name": "Roben Castagna Lunardi",
+  "title": "Associate Professor",
+  "affiliation": "Federal Institute of Education, Science and Technology of Rio Grande do Sul (IFRS)",
+  "location": "Rio Grande do Sul, Brazil",
+  "bio": "Roben Castagna Lunardi is an Associate Professor at the Federal Institute of Rio Grande do Sul (IFRS). His research interests include Blockchain, Internet of Things (IoT), Computer Networks, and Cyber Security. He is actively involved in developing secure and efficient architectures for smart cities and distributed systems.",
+  "interests": ["Blockchain", "Internet of Things (IoT)", "Computer Networks", "Cyber Security"],
+  "socials": {
+    "scholar": "https://scholar.google.com.br/citations?user=PTMGNKIAAAAJ",
+    "researchgate": "https://www.researchgate.net/profile/Roben-Lunardi",
+    "orcid": "https://orcid.org/0000-0002-8118-0802",
+    "lattes": "http://lattes.cnpq.br/1243090119249735",
+    "linkedin": "https://www.linkedin.com/in/robenlunardi/"
+  },
+  "contact": {
+    "email": "roben.lunardi@zonanorte.ifrs.edu.br",
+    "address": "Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul – Campus Zona Norte, Av. Francisco Trein, 326 - Bairro Cristo Redentor - CEP: 91350-200 - Porto Alegre/RS - Brasil"
+  },
+  "metrics": {
+    "citations": 944,
+    "hIndex": 15,
+    "i10Index": 18
+  }
+}

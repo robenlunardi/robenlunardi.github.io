@@ -1,0 +1,40 @@
+---
+interface Props {
+	title: string;
+	authors: string;
+	venue: string;
+	year: string;
+	link: string;
+	citations: number;
+	lang?: 'EN' | 'PT';
+}
+
+const { title, authors, venue, year, link, citations, lang } = Astro.props;
+---
+
+<div class="group py-6 border-b border-slate-50 last:border-0 transition-all">
+	<div class="flex flex-col gap-1">
+		<div class="flex items-start gap-2">
+			{lang && (
+				<span class="mt-1 flex-shrink-0 px-1.5 py-0.5 bg-slate-100 text-slate-500 text-[10px] font-bold rounded">
+					{lang}
+				</span>
+			)}
+			<a href={link} target="_blank" rel="noopener noreferrer" class="text-lg font-medium leading-tight group-hover:text-blue-600 transition-colors">
+				{title}
+			</a>
+		</div>
+		<p class="text-slate-600 text-sm">{authors}</p>
+		<div class="flex items-center gap-3 text-xs text-slate-400 mt-1">
+			<span class="font-medium text-slate-500">{venue}</span>
+			<span>•</span>
+			<span>{year}</span>
+			{citations > 0 && (
+				<>
+					<span>•</span>
+					<span class="bg-slate-50 px-2 py-0.5 rounded-full text-blue-600 font-medium">{citations} citations</span>
+				</>
+			)}
+		</div>
+	</div>
+</div>
